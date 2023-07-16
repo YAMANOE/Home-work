@@ -22,65 +22,7 @@ print(person2["age"])
 print(person3["age"])
 print(person4["age"])
 print(person5["age"])
-# ----------------------------------------------
-print(50*"*")
-name="yaman obiedat"
-print(name[2])
-print(name[-1])
-print(name[7:10])
-# ----------------------------------------------
-#name2=input("inter your name: ")
-#x=len(name2)
 
-#for i in range(x):
- #   if name2[i]=="l":
-  #      print('found')
-  #-------------------------------------------------
-
-name2="loae"
-name2="*"+name2[1:]
-print(name2)
-
-name3="salem"
-name3=name3[0:1]+"*"+name3[3:]
-# -------------------------------------------------
-name4="salem"
-for i in range(len(name4)):
-    if name4[i]=='l':
-        name4=name4[0:i]+"*"+name4[i+1:]
-        print(name4)
-
-# -------------------------------------------------
-name5="salem"
-for i in range(len(name4)):
-    if name4[i]=='l':
-        name5=name5[0:i]+"*"+name5[i+1:]
-print(name4)
-# ------------------------------------------------
-print("*"*50)
-name6="sallem"
-for i in range(len(name4)):
-    if name6[i]=='l':
-        name6=name6.replace("l","*")
-print(name6)        
-#------------------------------------------------
-#num1=float(input("inter your number: "))
-#if num1%2==0:
-#    print("even")
-#else:
- #   print("odd") 
-#------------------------------------------------   
-#prime numder 
-num2=int(input("inter your number: "))
- 
-for i in range (2,num2):
-   
-   if num2%i ==0:
-       print("is not") 
-       break
-
-else:
-    print("is prime ")   
 
     
       
