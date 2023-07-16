@@ -22,6 +22,13 @@ print(person2["age"])
 print(person3["age"])
 print(person4["age"])
 print(person5["age"])
+# ----------------------------------------------
+print(50*"*")
+name="yaman obiedat"
+print(name[2])
+print(name[-1])
+print(name[7:10])
+
 
 
 
